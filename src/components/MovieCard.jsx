@@ -28,7 +28,7 @@ export default function MovieCard({ movie, onAdd, onRemove, inWatchlist }) {
           {movie.release_date ? movie.release_date.split('-')[0] : '—'}
         </div>
 
-        {/* Buttons - always aligned at bottom */}
+       
         <div className="mt-auto flex gap-2 flex-col justify-center">
           {inWatchlist ? (
             <button

@@ -24,7 +24,7 @@ setWatchlist(prev => prev.filter(m => m.id !== id));
 
 return (
 <BrowserRouter>
-<div className="min-h-screen bg-gradient-to-b from-slate-900 via-indigo-900 to-pink-900 p-6">
+<div className="min-h-screen bg-gradient-to-b from-slate-900 via-indigo-900 to-pink-900 p-6 mb-0">
 <div className="max-w-6xl mx-auto">
 <Header watchCount={watchlist.length} />
 
@@ -36,7 +36,11 @@ return (
 </Routes>
 </motion.main>
 </div>
+  <p  className="mt-5 mb-0 text-xs text-white/50 text-center">
+    © MovieDB Info | For Demo Use Only
+  </p>
 </div>
+
 </BrowserRouter>
 );
 }

@@ -48,6 +48,8 @@ inWatchlist={!!watchlist.find(x=>x.id===m.id)}
 )}
 </MovieGrid>
 )}
+
+
 </div>
 );
 }
