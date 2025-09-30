@@ -6,3 +6,17 @@
 
 
 body{ font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+
+
+
+@media (max-width: 495px) {
+  #header {
+    flex-direction: column; 
+   align-items: start;
+   padding-left: 10px;
+  }
+
+  #home-and-watchlist{
+    padding-top: 10px;
+  }
+}
