@@ -23,7 +23,7 @@ export default function Header({ watchCount }) {
 
             <nav id='home-and-watchlist' className="flex items-center gap-4">
                 <Link to="/" className={`px-3 py-2 rounded-md ${loc.pathname === '/' ? 'bg-white/10' : ''} text-white`}>Home</Link>
-                <Link to="/watchlist" className={`px-3 py-2 rounded-md ${loc.pathname === '/watchlist' ? 'bg-white/10' : ''} text-white flex items-center gap-2`}>Watchlist
+                <Link to="/watchlist" id='watchlist' className={`px-3 py-2 rounded-md ${loc.pathname === '/watchlist' ? 'bg-white/10' : ''} text-white flex items-center gap-2`}>Watchlist
                     <span className="bg-white/10 px-2 py-1 rounded text-sm">{watchCount}</span>
                 </Link>
             </nav>
