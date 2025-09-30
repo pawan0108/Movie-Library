@@ -1,6 +1,6 @@
-// Simple wrapper for The Movie Database (TMDB) API
+
 import axios from 'axios';
-const API_KEY = 'YOUR_TMDB_API_KEY'; // <-- replace with your TMDB API key
+const API_KEY = 'de65e72f529e35ab816b63c917c67ca7'; 
 const BASE = 'https://api.themoviedb.org/3';
 
 
